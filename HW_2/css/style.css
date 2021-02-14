@@ -183,47 +183,43 @@ body {
 
 .infoBlockBlock {
   width: 330px;
-<<<<<<< HEAD
-<<<<<<< HEAD
   height: auto;
   display: block; }
-  .infoBlockBlock .infoBlockFirst {
-=======
-=======
->>>>>>> 32c2374690916a4d7f431348c1449d06e61af85c
-  height: auto; }
-  .adBlock .adFirst {
->>>>>>> 32c2374690916a4d7f431348c1449d06e61af85c
-    width: 100%;
-    height: 250px;
-    border: 1px solid silver;
+
+.infoBlockFirst {
+  width: 100%;
+  height: 250px;
+  border: 1px solid silver;
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "segoe-wp-light";
+  font-size: 21px;
+  font-weight: bold;
+  color: #696161; }
+  .infoBlockFirst__title {
+    font-family: "Segoe WP";
     margin: 0;
-    margin-bottom: 50px;
-    text-align: center;
-    font-family: "segoe-wp-light";
-    font-size: 21px;
-    font-weight: bold;
-    color: #696161; }
-    .infoBlockBlock .infoBlockFirst__title {
-      font-family: "Segoe WP";
-      margin: 0;
-      color: #b8dc58;
-      font-size: 39px; }
-    .infoBlockBlock .infoBlockFirst .photoIPad {
-      -webkit-box-sizing: border-box;
-              box-sizing: border-box;
-      padding: 5px;
-      position: relative;
-      width: 160px;
-      height: 160px; }
-    .infoBlockBlock .infoBlockFirst .ipadMini {
-      position: absolute;
-      bottom: 0;
-      right: -20px; }
-    .infoBlockBlock .infoBlockFirst .cssImg {
-      position: absolute;
-      bottom: 0;
-      right: -125px; }
+    color: #b8dc58;
+    font-size: 39px; }
+
+.photoIPad {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+  position: relative;
+  width: 160px;
+  height: 160px; }
+
+.ipadMini {
+  position: absolute;
+  bottom: 0;
+  right: -20px; }
+
+.cssImg {
+  position: absolute;
+  bottom: 0;
+  right: -125px; }
 
 .infoBlockSecond {
   margin: 0 auto;

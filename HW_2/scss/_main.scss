@@ -88,48 +88,46 @@
 .infoBlockBlock {
     width: 330px;
     height: auto;
-    display: block;
+    display: block;    
+}
+.infoBlockFirst {
+    width: 100%;
+    height: 250px;
+    border: 1px solid silver;
+    margin: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "segoe-wp-light";
+    font-size: 21px;
+    font-weight: bold;
+    color: #696161;
 
-    .infoBlockFirst {
-        width: 100%;
-        height: 250px;
-        border: 1px solid silver;
+    &__title {
+        font-family: "Segoe WP";
         margin: 0;
-        margin-bottom: 50px;
-        text-align: center;
-        font-family: "segoe-wp-light";
-        font-size: 21px;
-        font-weight: bold;
-        color: #696161;
-
-        &__title {
-            font-family: "Segoe WP";
-            margin: 0;
-            color: #b8dc58;
-            font-size: 39px;
-        }
-
-        .photoIPad {
-            box-sizing: border-box;
-            padding: 5px;
-            position: relative;
-            width: 160px;
-            height: 160px;
-            // border: 1px solid red;
-        }
-
-        .ipadMini {
-            position: absolute;
-            bottom: 0;
-            right: -20px;
-        }
-
-        .cssImg {
-            position: absolute;
-            bottom: 0;
-            right: -125px;
-        }
+        color: #b8dc58;
+        font-size: 39px;
     }
+}
+.photoIPad {
+    box-sizing: border-box;
+    padding: 5px;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    // border: 1px solid red;
+}
+
+.ipadMini {
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+}
+
+.cssImg {
+    position: absolute;
+    bottom: 0;
+    right: -125px;
 }
 
 .infoBlockSecond {
