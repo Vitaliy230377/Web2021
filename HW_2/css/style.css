@@ -181,10 +181,9 @@ body {
   .technicalInform__text {
     font-size: 14px; }
 
-.infoBlockBlock {
+.infoBlock {
   width: 330px;
-  height: auto;
-  display: block; }
+  height: auto; }
 
 .infoBlockFirst {
   width: 100%;
