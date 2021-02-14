@@ -1,0 +1,66 @@
+.heroBlock {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    // border: 1px solid red;
+    display: flex;
+    margin: 0;
+    position: relative;
+}
+
+.heroDescription {
+    width: 320px;
+    height: 240px;
+}
+h1{
+    font-family: "segoe-wp-light";
+    color: #5d5d5d;
+    font-weight: bold;
+    margin: 0;
+    font-size: 61px; 
+}
+h3{
+    font-family: "segoe-wp-light";
+    color: #5d5d5d;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 47px;
+}
+.videoReview{
+    box-sizing: border-box;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: bold;
+    width: 205px;
+    padding-right: 5px;
+    height: 40px;
+    font-family: "segoe-wp-light";
+    font-size: 23px;
+    color: white;
+    background-color: #373737;
+    transition: 1.5s;
+    &:hover{
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+        .camera{
+            background-image: url(../img/cameraDark.png);
+        }
+    }
+}
+.camera{
+    width: 40px;
+    height: 20px;
+    background-image: url(../img/camera.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iPod{
+    position: absolute;
+    right: -130px;
+}

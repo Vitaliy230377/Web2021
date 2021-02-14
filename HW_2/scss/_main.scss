@@ -1,0 +1,263 @@
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.companyGoods {
+    width: 690px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    // border: 2px solid orange;
+}
+
+.imgOfGoods {
+    width: 310px;
+    height: 245px;
+    margin-bottom: 15px;
+    background-image: url(../img/ipadBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iPhone {
+    margin-right: 20px;
+}
+
+.describeGoods {
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 30px;
+    width: 370px;
+    height: 245px;
+    font-family: "segoe-wp-light";
+    color: #696161;
+
+    &__title {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    &__text {
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 63px;
+    height: 40px;
+    // border: 1px solid purple;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #7c7d7c;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.technicalInform {
+    width: 220px;
+    height: auto;
+    font-family: "segoe-wp-light";
+    color: #696161;
+    padding: 0 5px;
+
+    &__title {
+        margin: 0;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    &__text {
+        font-size: 14px;
+    }
+}
+
+
+.adBlock {
+    width: 330px;
+    height: auto;
+
+    .adFirst {
+        width: 100%;
+        height: 250px;
+        border: 1px solid silver;
+        margin: 0;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: "segoe-wp-light";
+        font-size: 21px;
+        font-weight: bold;
+        color: #696161;
+
+        &__title {
+            font-family: "Segoe WP";
+            margin: 0;
+            color: #b8dc58;
+            font-size: 39px;
+        }
+
+        .photoIPad {
+            box-sizing: border-box;
+            padding: 5px;
+            position: relative;
+            width: 160px;
+            height: 160px;
+            // border: 1px solid red;
+        }
+
+        .ipadMini {
+            position: absolute;
+            bottom: 0;
+            right: -20px;
+        }
+
+        .cssImg {
+            position: absolute;
+            bottom: 0;
+            right: -125px;
+        }
+    }
+}
+
+.adSecond {
+    margin: 0 auto;
+    width: 100%;
+    height: 270px;
+    // box-sizing: border-box;
+    // padding: 10px;
+    background-color: #99ffff;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Segoe WP";
+    color: white;
+    text-align: center;
+
+    &__title {
+        line-height: 40px;
+        font-size: 41px;
+        margin: 0;
+    }
+
+    &__text {
+        width: 220px;
+        font-size: 23px;
+        margin: 0;
+    }
+
+}
+
+.week12 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ff9999;
+    border: 5px solid white;
+    font-family: "Segoe WP";
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -20px;
+
+    &__title {
+        line-height: 75px;
+        font-weight: bold;
+        margin: 0 auto;
+        font-size: 71px;
+    }
+
+    &__text {
+        margin: 0 auto;
+        font-size: 21px;
+    }
+}
+
+.joingUs {
+    width: 170px;
+    height: 30px;
+    background-color: #66cccc;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+
+    &__text {
+        font-family: "OptimaLT Medium";
+        font-size: 20px;
+        color: white;
+        margin: 0;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.adThird {
+    width: 100%;
+    height: 265px;
+    background-color: #333333;
+    margin-bottom: 20px;
+    font-family: "OptimaLT Medium";
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-bottom: 10px solid#cc3366;
+
+    &__title {
+        width: 250px;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    &__text {
+        text-align:start;
+        margin: 0;
+        width: 270px;
+        font-family: "Segoe WP";
+        font-size: 16px;
+    }
+
+}
+
+
+.input {
+    width: 255px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.singMeUp {
+    width: 170px;
+    height: 30px;
+    background-color: #cc3366;
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;align-items: center;
+    &__text {
+        font-family: "OptimaLT Medium";
+        font-size: 20px;
+        color: white;
+        margin: 0;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
