@@ -183,8 +183,7 @@ body {
 
 .adBlock {
   width: 330px;
-  height: auto;
-  display: block; }
+  height: auto; }
   .adBlock .adFirst {
     width: 100%;
     height: 250px;
