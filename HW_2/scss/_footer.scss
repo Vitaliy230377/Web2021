@@ -1,4 +1,4 @@
-.footerHero{
+.footerBlock{
     width: 100%;
     background-color: #393a39;
 }
@@ -22,6 +22,26 @@
     width: 125px;
     height: auto;
     transition: 1.5s;
+    &__icon{
+        width: 30px;
+        height: 30px;
+        // border: 1px solid red;
+        &--Facebook{
+            background-image: url(../img/fb_1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &--Twitter{
+            background-image: url(../img/twitter_1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &--YouTube{
+            background-image: url(../img/you_tube.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
     &:hover{
         cursor: pointer;
       

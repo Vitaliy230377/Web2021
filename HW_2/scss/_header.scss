@@ -1,3 +1,6 @@
+.headerBlock{
+    border-bottom: 2px solid #cccccc;
+}
 .header {
     width: 100%;
     height: auto;
@@ -19,7 +22,6 @@
     font-size: 51px;
     font-weight: bold;
     color: #595959;
-    margin: 0;
 
     &__black {
         font-family: "Trebushet MS";
@@ -41,15 +43,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: "segoe-wp-light";
-    font-size: 23px;
-    font-weight: bold;
-    color: #323332;
-    
+    &__item a{
+        text-decoration: none;
+        font-family: "segoe-wp-light";
+        font-size: 23px;
+        font-weight: bold;
+        color: #323332;
+    }
 }
 
-.nav li {
-    margin: 0;
+.nav a {
     padding: 5px 10px 5px;
 
     &:hover {
