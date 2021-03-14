@@ -1,0 +1,25 @@
+@import "./_fonts";
+@import "./_variable";
+@import "./_mixins";
+@import "./_header";
+@import "./_slider";
+@import "./_main";
+@import "./_footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 8700px;
+    background-color: $bgColor;
+}
+.container {
+    width: 1830px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 5px;
+    // border: 1px solid red;
+}
+
