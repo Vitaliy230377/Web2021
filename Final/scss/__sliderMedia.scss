@@ -1,0 +1,368 @@
+@media (max-width: 1830px) {
+    .sliderHero {
+        &__img {
+            width: 1700px;
+            height: 530px;
+        }
+    }
+}
+
+@media (max-width: 1770px) {
+    .sliderHero {
+        &__img {
+            width: 1600px;
+            height: 495px;
+        }
+    }
+}
+
+@media (max-width: 1650px) {
+    .sliderHero {
+        &__img {
+            width: 1450px;
+            height: 445px;
+        }
+    }
+    .ourSlogan {
+        &__title {
+            font-size: 55px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .sliderHero {
+        &__img {
+            width: 1280px;
+            height: 395px;
+        }
+    }
+    .ourSlogan {
+        &__title {
+            font-size: 50px;
+            margin-bottom: 55px;
+        }
+    }
+}
+
+@media (max-width: 1355px) {
+    .sliderHero {
+        &__img {
+            width: 1200px;
+            height: 375px;
+        }
+    }
+}
+
+@media (max-width: 1270px) {
+    .sliderHero {
+        &__img {
+            width: 1075px;
+            height: 330px;
+        }
+    }
+    .ourSlogan {
+        &__title {
+            font-size: 40px;
+            margin-bottom: 45px;
+        }
+    }
+}
+
+@media (max-width: 1130px) {
+    .sliderHero {
+        &__img {
+            width: 950px;
+            height: 300px;
+        }
+    }
+    .sliderText {
+        &__title {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 1030px) {
+    .sliderHero {
+        padding-right: 20px;
+        &__img {
+            width: 850px;
+            height: 270px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+    }
+    .sliderText {
+        &__title {
+            font-size: 15px;
+            word-spacing: 50px;
+            letter-spacing: 40px;
+        }
+    }
+    .ourSlogan {
+        &__sign {
+            width: 100px;
+            height: 75px;
+        }
+    }
+}
+
+@media (max-width: 930px) {
+    .sliderHero {
+        &__img {
+            width: 790px;
+            height: 245px;
+        }
+    }
+    .sliderButton {
+        width: 363px;
+        height: 363px;
+        margin-bottom: 80px;
+        &__lighten20 {
+            width: 303px;
+            height: 303px;
+        }
+        &__lighten40 {
+            width: 236px;
+            height: 236px;
+        }
+        &__lighten60 {
+            width: 168px;
+            height: 168px;
+        }
+        &__play {
+            width: 159px;
+            height: 159px;
+        }
+    }
+    .ourSlogan {
+        &__title {
+            font-size: 35px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 835px) {
+    .sliderText {
+        margin: 35px 0 65px;
+    }
+    .sliderHero {
+        &__img {
+            width: 645px;
+            height: 200px;
+        }
+    }
+    .sliderButton {
+        width: 323px;
+        height: 323px;
+        margin-bottom: 60px;
+        &__lighten20 {
+            width: 263px;
+            height: 263px;
+        }
+        &__lighten40 {
+            width: 196px;
+            height: 196px;
+        }
+        &__lighten60 {
+            width: 148px;
+            height: 148px;
+        }
+        &__play {
+            width: 135px;
+            height: 135px;
+        }
+    }
+    .ourSlogan {
+        &__title {
+            font-size: 25px;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .sliderText {
+        &__title {
+            font-size: 15px;
+            word-spacing: 35px;
+            letter-spacing: 20px;
+        }
+    }
+    .ourSlogan {
+        margin-bottom: 50px;
+        &__sign {
+            width: 85px;
+            height: 60px;
+        }
+    }
+}
+
+@media (max-width: 695px) {
+    .sliderHero {
+        padding-right: 0;
+        &__img {
+            width: 575px;
+            height: 175px;
+        }
+        &__text {
+            font-size: 10px;
+        }
+    }
+    .sliderText {
+        margin: 25px 0 65px;
+        &__title {
+            font-size: 15px;
+            word-spacing: 35px;
+            letter-spacing: 20px;
+        }
+    }
+    .sliderButton {
+        width: 303px;
+        height: 303px;
+        margin-bottom: 50px;
+        &__lighten20 {
+            width: 250px;
+            height: 250px;
+        }
+        &__lighten40 {
+            width: 195px;
+            height: 195px;
+        }
+        &__lighten60 {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .sliderHero {
+        &__img {
+            background-image: url(../img/10X.png);
+            width: 350px;
+            height: 155px;
+        }
+    }
+    .ourSlogan {
+        &__title {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        &__sign {
+            width: 75px;
+            height: 55px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .sliderHero {
+        &__img {
+            background-image: url(../img/10X.png);
+            width: 300px;
+            height: 130px;
+        }
+    }
+    .sliderText {
+        margin: 15px 0 45px;
+        &__title {
+            font-size: 12px;
+            word-spacing: 10px;
+            letter-spacing: 15px;
+        }
+    }
+    .sliderPoints {
+        width: 100px;
+        height: 20px;
+        margin-bottom: 35px;
+    }
+    .pointBlock {
+        width: 20px;
+    }
+    .sliderButton {
+        width: 253px;
+        height: 253px;
+        margin-bottom: 50px;
+        &__lighten20 {
+            width: 200px;
+            height: 200px;
+        }
+        &__lighten40 {
+            width: 165px;
+            height: 165px;
+        }
+        &__lighten60 {
+            width: 125px;
+            height: 125px;
+        }
+        &__play {
+            width: 110px;
+            height: 110px;
+        }
+    }
+    .ourSlogan {
+        margin-bottom: 55px;
+        &__title {
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .sliderHero {
+        &__img {
+            background-image: url(../img/10X.png);
+            width: 250px;
+            height: 110px;
+        }
+        &__text {
+            font-size: 5px;
+        }
+    }
+    .sliderText {
+        margin: 25px 0 35px;
+        &__title {
+            font-size: 12px;
+            word-spacing: 5px;
+            letter-spacing: 10px;
+        }
+    }
+    .sliderButton {
+        width: 213px;
+        height: 213px;
+        margin-bottom: 35px;
+        &__lighten20 {
+            width: 180px;
+            height: 180px;
+        }
+        &__lighten40 {
+            width: 145px;
+            height: 145px;
+        }
+        &__lighten60 {
+            width: 110px;
+            height: 110px;
+        }
+        &__play {
+            width: 95px;
+            height: 95px;
+        }
+    }
+    .ourSlogan {
+        margin-bottom: 50px;
+        &__title {
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        &__sign {
+            width: 60px;
+            height: 45px;
+        }
+    }
+}
