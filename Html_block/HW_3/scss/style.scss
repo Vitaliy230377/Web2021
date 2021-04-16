@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(../fonts/8141.otf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "Myriad Pro Regular";
+    src: url(../fonts/8143.otf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.worldBlock {
+    width: 1100px;
+    height: 750px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-image: url(../img/MapOfWorld.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.partsOfWorld {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__west {
+        width: 365px;
+        height: 100%;
+    }
+
+    &__center {
+        width: 365px;
+        height: 100%;
+    }
+
+    &__east {
+        width: 365px;
+        height: 100%;
+    }
+
+}
+
+h1 {
+    font-family: "Myriad Pro";
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mainLand {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__America {
+        background-color: rgba(0, 51, 102, 0.5);
+    }
+
+    &__Europe {
+        background-color: rgba(102, 51, 102, 0.5);
+    }
+
+    &__Africa {
+        background-color: rgba(241, 228, 9, 0.5);
+    }
+
+    &__Asia {
+        background-color: rgba(127, 44, 61, 0.5);
+    }
+
+    &__Australia {
+        background-color: rgba(194, 146, 70, 0.5);
+    }
+
+}
+
+.country {
+    width: 320px;
+    height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    &__USA {
+        background-color: rgba(0, 51, 102, 0.5);
+    }
+
+    &__France {
+        background-color: rgba(102, 51, 102, 0.5);
+    }
+
+    &__China {
+        background-color: rgba(102, 51, 51, 0.5);
+    }
+
+    &__southAfrica {
+        background-color: rgba(153, 153, 51, 0.5);
+    }
+
+    &__Australia {
+        background-color: rgba(153, 102, 51, 0.5);
+    }
+
+    &__flag {
+        width: 100px;
+        height: 65px;
+        background-image: url(../img/flag.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__name {
+        font-family: "Myriad Pro";
+        font-size: 30px;
+        color: white;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+}
+
+.cities {
+    width: 100%;
+    height: 150px;
+    margin-left: 15px;
+
+    &__title {
+        font-family: "Myriad Pro Regular";
+        font-size: 26px;
+        color: white;
+        font-weight: normal;
+    }
+}
+.city{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    &__flag{
+        margin-right: 10px;
+
+    }
+    &__name{
+        font-family: "Myriad Pro Regular";
+        font-size: 21px;
+        color: white;
+        font-weight: normal; 
+    }
+}
