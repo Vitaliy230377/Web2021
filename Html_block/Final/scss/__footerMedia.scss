@@ -1,0 +1,136 @@
+@media (max-width: 1650px) {
+    .footerLine {
+        width: 500px;
+    }
+}
+@media (max-width: 1500px) {
+    .footerLine {
+        width: 400px;
+    }
+}
+@media (max-width: 1355px) {
+    .footerSocial {
+        width: 220px;
+        height: 145px;
+    }
+    .footerLogo {
+        margin-bottom: 30px;
+    }
+    .footerMenu {
+        width: 450px;
+    }
+}
+@media (max-width: 1270px) {
+    .footerBlock {
+        margin-bottom: 150px;
+    }
+    .footerLine {
+        width: 300px;
+    }
+    .footerMenu a {
+        width: 400px;
+        padding: 5px;
+        &__item {
+            font-size: 12px;
+        }
+        &__slash {
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .footerLine {
+        width: 250px;
+    }
+    .footerMenu {
+        width: 350px;
+        &__item a {
+            font-size: 10px;
+        }
+        &__slash {
+            font-size: 10px;
+        }
+    }
+    .footerBlock {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 850px) {
+    .footerLine {
+        width: 200px;
+    }
+    .footerMenu a {
+        width: 300px;
+    }
+}
+@media (max-width: 700px) {
+    .footerLine {
+        width: 150px;
+    }
+    .footerBlock {
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 600px) {
+    .footerLine {
+        width: 100px;
+    }
+    .footerSocial {
+        height: 60px;
+
+        &__icon {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+@media (max-width: 500px) {
+    .footerLine {
+        width: 50px;
+    }
+    .footerMenu {
+        width: 300px;
+        &__item a {
+            font-size: 8px;
+        }
+        &__slash {
+            font-size: 8px;
+        }
+    }
+    .footerNav {
+        margin-bottom: 20px;
+    }
+    .footerSocial {
+        height: 60px;
+
+        &__icon {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .footerLine {
+        width: 30px;
+    }
+    .footerMenu {
+        width: 250px;
+        &__item a {
+            font-size: 8px;
+        }
+        &__slash {
+            margin-left: 15px;
+        }
+    }
+    .footerNav {
+        margin-bottom: 15px;
+    }
+    .footerSocial {
+        height: 50px;
+
+        &__icon {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
