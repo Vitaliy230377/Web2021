@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'ApexMk3 ExtraLight';
+  src: url(../fonts/20050.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Void Regular';
+  src: url(../fonts/19276.otf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.container {
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.main {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  opacity: 0.9;
+  background-color: #1d1c1c; }
+
+.iconsList {
+  margin: 0 auto;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  margin-bottom: 30px; }
+
+.icon {
+  width: 95px;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 30px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s; }
+  .icon:hover {
+    cursor: pointer;
+    background-color: #82f74c; }
+  .icon:first-child {
+    background-color: #82f74c; }
+  .icon__Title {
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'ApexMk3 ExtraLight';
+    color: black;
+    font-size: 14px;
+    font-weight: bold; }
+  .icon .iconImg {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/user.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .icon .iconImg__education {
+      background-image: url(../img/presentation.png); }
+    .icon .iconImg__experience {
+      background-image: url(../img/experience.png); }
+    .icon .iconImg__skills {
+      background-image: url(../img/skill-development.png); }
+
+.profile {
+  font-family: 'Void Regular';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px; }
+  .profile__text {
+    text-align: center;
+    font-family: 'Void Regular';
+    color: white;
+    font-size: 14px; }
+
+.myPhoto {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/myPhoto2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 1s;
+  transition: 1s; }
+  .myPhoto:hover {
+    background-image: url(../img/photo.jpg);
+    -webkit-transition: 1s;
+    transition: 1s; }
+
+.socialNetwors {
+  margin: 0 auto;
+  width: 250px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .socialNetwors .network {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: 1s;
+    transition: 1s; }
+    .socialNetwors .network__facebook {
+      background-image: url(../img/facebook.png); }
+    .socialNetwors .network__instagram {
+      background-image: url(../img/instagram.png); }
+    .socialNetwors .network__twitter {
+      background-image: url(../img/twitter.png); }
+    .socialNetwors .network:hover {
+      cursor: pointer;
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
+
+/*# sourceMappingURL=style.css.map */
